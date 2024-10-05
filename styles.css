@@ -1,0 +1,229 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.indigo{
+    color: black;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+}
+
+.tabs ul{
+    list-style-type: none;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    margin: 0;
+    padding: 15px 0;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.tabs ul li{
+    float: left;
+    text-align: center;
+    margin: 0;
+    display: block;
+}
+
+.tabs ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 12px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.6s;
+}
+
+form{
+    display: inline;
+}
+
+.tabs ul li:first-child{
+    padding-right: 130px;
+}
+.tabs ul li:nth-child(7){
+    padding-right: 125px;
+}
+
+.tabs ul li:nth-child(8){
+    padding-right: 230px;
+}
+
+.tabs ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+span{
+    position: relative;
+    top: -14px;
+}
+header img{
+    position: relative;
+    top: -5px;
+    border-radius: 50px;
+    padding-right: 12px;
+}
+
+header input{
+    border-radius: 5px;
+}
+
+.about{
+    text-align: center;
+    padding: 70px 0;
+    font-size: 50px;
+    font-family: 'Lucida Sans';
+    background-color: burlywood;
+}
+
+.mission{
+    text-align: center;
+    padding: 70px 0;
+    background-color: aqua;
+}
+.mission h3{
+    float: left;
+    font-size: 30px;
+    height: auto;
+}
+
+.mission p{
+    height: auto;
+}
+
+.vision{
+    text-align: center;
+    color: white;
+    padding: 70px 0;
+    background-image: url(images/wolfjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.vision h3{
+    float: left;
+    font-size: 30px;
+    height: auto;
+}
+
+.vision p{
+    height: auto;
+}
+
+.values{
+    margin: 20px;
+    color: black;
+    padding: 70px 0; 
+}
+
+.values h3{
+    float: left;
+    font-size: 30px;
+    height: auto;
+}
+
+.values p{
+    height: auto;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+}
+
+.footer img{
+    max-width: 100%;
+    opacity: 1.0;
+}
+
+.footer img:hover{
+    opacity: 0.7;
+}
+
+.cr7{
+    position: relative;
+    width: 25%;
+}
+
+.cr7 img{
+    height: 564px;
+    width: 100%;
+}
+.cr7 p{
+    position: absolute;
+    color: white;
+    transform: translate(-50%, 70%);
+    left: 40%;
+    top: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.benzema{
+    position: relative;
+    width: 25%;
+}
+
+.benzema img{
+    height: 564px;
+    width: 100%;
+}
+
+.benzema p{
+    position: absolute;
+    color: white;
+    transform: translate(-50%, 80%);
+    left: 50%;
+    top: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.mbappe{
+    position: relative;
+    width: 25%;
+}
+
+.mbappe img{
+    height: 564px;
+    width: 100%;
+}
+
+.mbappe p{
+    position: absolute;position: absolute;
+    color: white;
+    transform: translate(-50%, 80%);
+    left: 50%;
+    top: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.vini{
+    position: relative;
+    width: 25%;
+}
+
+.vini img{
+    height: 564px;
+    width: 100%;
+}
+
+.vini p{
+    position: absolute;position: absolute;
+    color: white;
+    transform: translate(-50%, 80%);
+    left: 50%;
+    top: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
